@@ -10,7 +10,7 @@ app_class = 'my_brainishare_app.app:MyBrainishareApp'
 app_package_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tethysapp', app_package)
 
 ### Python Dependencies ###
-dependencies = []
+dependencies = ["requests"]
 
 setup(
     name=release_package,
